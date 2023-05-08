@@ -1,0 +1,38 @@
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 45, 104);
+    padding: 1px 0;
+}
+nav > h1
+{
+    font-style: italic;
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+   
+}
+ul 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+
+nav ul a
+{
+    
+    font-size: 25px;
+    font-weight: 350;
+    color: white;
+    text-decoration: none;
+}
+nav ul a:hover
+{
+    color:#717a7a;
+    
+}
